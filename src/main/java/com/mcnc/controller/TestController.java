@@ -8,7 +8,7 @@ public class TestController {
 	@RequestMapping("/add")
 	public String add() {
 		System.out.println("I'm here");
-		return "display.jsp";
+		return "display.html";
 	}
 
 }
