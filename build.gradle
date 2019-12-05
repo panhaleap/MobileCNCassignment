@@ -49,8 +49,8 @@ dependencies {
     runtimeOnly 'org.postgresql:postgresql:42.2.8.jre7'
     
     //Spring dependencies
-    compile("org.springframework:spring-context:4.0.0.RELEASE")
-    compile("org.springframework:spring-webmvc:4.0.0.RELEASE")
+    compile("org.springframework:spring-context:5.0.0.RELEASE")
+    compile("org.springframework:spring-webmvc:5.0.0.RELEASE")
     
     //Servlet dependencies    
     compile ("javax.servlet:javax.servlet-api:3.0.1")
@@ -60,13 +60,3 @@ dependencies {
     //theymeleaf for template
     compile ("org.thymeleaf:thymeleaf:3.0.11.RELEASE")
 }
-
-/*
-dependencies {
-    def tomcatVersion = '9'
-    
-    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
-           "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
-           "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"
-}
-*/
